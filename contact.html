@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+       input[type=text]{
+            padding: 8px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border-radius: 4px;
+       }
+
+       input[type=email]{
+            padding: 8px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border-radius: 4px;
+       }
+       input[type=tel]{
+            padding: 8px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border-radius: 6px;
+       }
+
+       button{
+        color: rgb(116, 226, 43);
+        border: none;
+        padding: 8px;
+        color: black;
+        border-radius: 8px;
+        font-size: 15px;
+       }
+       label{
+        font-size: 20px;
+        margin-right: 10px;
+       }
+
+    </style>
+</head>
+<body>
+    <h1 id="contact">Contact us</h1>
+
+    <!-- <form>
+        <label for="fname">Name:</label>
+        <input type="text" id="fname" name="fname" ><br>
+
+        <label for="Address">Address:</label>
+        <input type="text" id="Address" name="Address"> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"> <br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> <br>
+
+        <input type="radio" id="Male" name="Gender" value="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" id="female" name="Gender" value="Female">
+        <label for="Female">Female</label><br>
+
+        <button>Clear</button>
+        <button>Submit Form</button>
+    </form> <br><br><br> -->
+
+    <form >
+        <table>
+            <tr>
+        
+                <td><label for="fname">Name:</label></td>
+                <td><input type="text" id="fname" name="fname" ></td>
+            </tr>
+            <tr>
+                <td>  <label for="Address">Address:</label></td>
+                <td> <input type="text" id="Address" name="Address"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone:</label></td>
+                <td><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender :</label></td>
+                <td>
+                    <input type="radio" id="Male" name="Gender" value="Male">
+                    <label for="Male">Male</label>
+                    
+                </td>
+                <td>
+                    <input type="radio" id="female" name="Gender" value="Female">
+                    <label for="Female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button>Clear</button>
+                     <button>Submit Form</button>
+                 </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
